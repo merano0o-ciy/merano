@@ -60,7 +60,7 @@ img {
 }
 
 h5 {
-  color: rgb(209, 89, 89);
+  color: blue;
 }
 
 .gallery img {
@@ -198,12 +198,12 @@ h5 {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .navbar-brand img {
 
     margin-right: 7rem;
   }
-
+ 
   .nav-container h1 {
     font-size: 24px;
   }
@@ -212,24 +212,43 @@ h5 {
   }
   .footer {
     padding: 0 30%;
+
   }
 
   .go .fcon {
-    padding: 0 70%;
-    margin: 0 10px !important;
+    /* padding: 0 50%; */
+    margin: 0 15px !important;
   }
   
 }
 
+@media only screen and (max-width: 450px) {
+  .go .fcon {
+    /* padding: 0 50%; */
+    margin: 0 15px !important;
+  }
+  .footer {
+    padding: 0 33%;
+    background-color: #ff8250;
 
+  }
+}
 @media only screen and (max-width: 400px) {
 
   .footer {
     padding: 0 33%;
+    background-color: #0fc55b;
+
   }
   .footer__text p{
     font-size: 10px;
     font-weight: bolder;
+  }
+
+
+  .go .fcon {
+    /* padding: 0 50%; */
+    margin: 0 10px !important;
   }
 
   .section__form-title {
@@ -295,5 +314,9 @@ h5 {
 
 .go .fcon {
   margin: 5px 30px;
+}
+
+hr{
+  margin: 0 20px;
 }
 
