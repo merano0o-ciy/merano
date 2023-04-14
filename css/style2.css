@@ -1,6 +1,6 @@
 body {
     padding: 1% 0;
-    background-color: #dbddf1 !important;
+    background-color: #313131 !important;
 }
 
 img {
@@ -9,6 +9,7 @@ img {
 
 .gallery {
     padding: 80px 0;
+    background-color: #313131 !important;
 }
 
 .gallery img {
@@ -30,7 +31,7 @@ img {
 } */
 
 .carousel {
-    background-color: #dbddf1 !important;
+    background-color: #313131 !important;
     padding: 0 25%;
 }
 
@@ -54,7 +55,7 @@ img {
         height: 40rem !important;
     } */
     .carousel {
-        background-color: #dbddf1 !important;
+        background-color: #313131 !important;
         padding: 0 10% !important;
         margin-bottom: 10px;
     }
